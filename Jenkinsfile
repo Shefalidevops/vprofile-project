@@ -47,7 +47,7 @@ pipeline {
 
         stage('Sonar Analysis') {
             environment {
-                scannerHome = tool "${SONARSERVER}"
+                scannerHome = tool "${SONARSCANNER}"
             }
             steps {
                 withSonarQubeEnv("${SONARSERVER}") {
