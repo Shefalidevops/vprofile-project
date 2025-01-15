@@ -6,7 +6,7 @@ pipeine {
     }
     
     environment{
-         SNAP_REPO = 'veprofile-snapshot'
+         SNAP_REPO = 'vprofile-snapshot'
          NEXUS_USER = 'admin'
          NEXUS_PAASWORD = 'admin1234'
          RELEASE_REPO = 'vprofile-release'
